@@ -1,0 +1,9 @@
+# DOCKER SPOT2INFLUXDB
+Gateway behind spot plateform form objenious to influxdb
+
+# Usage
+ENV VAR 
+*INFLUXDB_ADDRESS
+*INFLUXDB_USER
+*INFLUXDB_PASSWORD
+*INFLUXDB_DATABASE
