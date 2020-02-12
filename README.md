@@ -1,5 +1,5 @@
 # DOCKER SPOT2INFLUXDB
-Gateway behind spot plateform form objenious to influxdb
+Gateway behind ttn plateform form objenious to influxdb
 
 # Usage
 ENV VAR 
