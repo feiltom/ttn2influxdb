@@ -68,8 +68,8 @@ def _send_sensor_data_to_influxdb(sensor_data):
         {
             'measurement': sensor_data['dev_id'],
             'fields': {
-                'wifi': sensor_data['payload_fields']['ble'],
-                'ble': sensor_data['payload_fields']['wifi']
+                'wifi': sensor_data['payload_fields']['wifi'],
+                'ble': sensor_data['payload_fields']['ble']
             }
         }
     ]
